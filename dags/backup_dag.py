@@ -27,7 +27,7 @@ with DAG(
     backup_currency_db = BashOperator(
         task_id="backup_currency_db",
 
-        bash_command="bash /airflow/scripts/postgres_backup.sh",
+        bash_command="bash /airflow/scripts/postgres_backup.sh ",
 
         env={
             "DB_HOST": conn.host,
