@@ -39,7 +39,7 @@ with DAG(
     dag_id="currency_rates_replication",
     description="Replicate currency rates from primary PostgreSQL DB to replica PostgreSQL DB",
     start_date=datetime(2026, 7, 1),
-    schedule="@daily",
+    schedule="0 3 * * *,
     catchup=False,
     default_args=default_args,
     tags=["currency", "postgres", "replication"],
