@@ -1,3 +1,6 @@
+import sys
+sys.path.append("/airflow")
+
 from datetime import datetime, timedelta
 
 from airflow import DAG
