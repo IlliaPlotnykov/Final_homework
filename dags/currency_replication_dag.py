@@ -10,7 +10,7 @@ from currencies_classes.postgres_replicator import PostgresReplicator
 
 
 SOURCE_CONN_ID = "postgres_conn_curr"
-TARGET_CONN_ID = "postgres_conn_curr"
+TARGET_CONN_ID = "postgres_conn_curr_replica"
 
 
 def replicate_currency_rates():
