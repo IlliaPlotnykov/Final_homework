@@ -18,7 +18,7 @@ with DAG(
     tags=["postgres", "backup", "currency"],
     default_args={
         "owner": "Illia_Plotnykov",
-        "retries": 2,
+        "retries": 3,
         "retry_delay": timedelta(minutes=5),
     },
 ) as dag:
