@@ -509,15 +509,11 @@ Implemented:
 Planned improvements:
 
 * Add Docker support
-* Add `.env` configuration
 * Add more structured logging
 * Add pytest tests for transformation logic
 * Add data quality checks
 * Add Parquet export
-* Add CI/CD pipeline
-* Add project diagram image
 * Add SQL scripts for table creation
-* Add Makefile or bash scripts for easier local setup
 
 ---
 
